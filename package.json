@@ -1,0 +1,40 @@
+{
+  "name": "is-dom-image",
+  "version": "1.0.0",
+  "description": "test whether an object is a DOM image or canvas",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "faucet": "0.0.1",
+    "smokestack": "^3.3.0",
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "browserify test.js | smokestack | faucet"
+  },
+  "keywords": [
+    "image",
+    "dom",
+    "is",
+    "element",
+    "images",
+    "htmlimageelement",
+    "video",
+    "canvas"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/is-dom-image.git"
+  },
+  "homepage": "https://github.com/Jam3/is-dom-image",
+  "bugs": {
+    "url": "https://github.com/Jam3/is-dom-image/issues"
+  }
+}
